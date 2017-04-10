@@ -20,6 +20,7 @@ namespace GuessingGame.Controllers
             guess == (int)Session["Answer"];
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Index(GameModel model)
         {
             if(ModelState.IsValid)

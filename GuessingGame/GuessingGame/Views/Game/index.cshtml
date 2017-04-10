@@ -6,29 +6,39 @@
 
 <h2>@ViewBag.Title</h2>
 
-@using (Html.BeginForm())
+@if (!(ViewBag.Win ?? false))
 {
-    <div class="form-horizontal">
+    if(ViewBag.Win !=null)
+    {
+        <h2>Sorry, @Model.PlayerName, @Model.Guess  is incorrect.</h2>
+    }
+    using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        
+        <div class="form-horizontal">
+        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
         <div class="form-group">
-            @Html.LabelFor(
-           m => m.PlayerName,
-           htmlAttributes: new { @class = "control-label col-md-2"})
+            @Html.LabelFor(m => m.PlayerName, htmlAttributes: new { @class = "control-label col-md-2" })
 
             <div class="col-md-10">
                 @Html.EditorFor(
-                    m => m.PlayerName,
-                    new { htmlAtributes = new { @class = "form-control"} })
+                 m => m.PlayerName,
+                 new { htmlAtributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.PlayerName, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group">
             @Html.LabelFor(
-           m => m.Guess,
-           htmlAttributes: new { @class = "control-label col-md-2" })
+            m => m.Guess,
+            htmlAttributes: new { @class = "control-label col-md-2" })
 
             <div class="col-md-10">
                 @Html.EditorFor(
-                    m => m.Guess,
-                    new { htmlAtributes = new { @class = "form-control" } })
+                 m => m.Guess,
+                 new { htmlAtributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.Guess, "", new { @class = "text-danger" })
             </div>
         </div>
             <div class="form-group">
@@ -38,5 +48,15 @@
 
             </div>
       </div>
+    }
+
+}
+else
+{
+    <h2>Thats it, @Model.PlayerName! The answer was @Model.Guess! </h2>
 }
 
+<div>
+    @Html.ActionLink("Start Over", "Index")
+</div>
+        
