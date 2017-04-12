@@ -1,4 +1,6 @@
 ﻿using GuessingGame.Models;
+using GuessingGame.Services;
+using Ninject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +9,22 @@ using System.Web.Mvc;
 
 namespace GuessingGame.Controllers
 {
+
     public class GameController : Controller
     {
+        //readonly means that the only time this can be changed is in the constructor
+        private readonly IRandomNumberGenerator _rng;
+        
+        public GameController(IRandomNumberGenerator rng)
+        {
+            _rng = rng;
+        }
+
         public ActionResult Index()
         {
-            Session["Answer"] = new Random().Next(1, 10);
+            IRandomNumberGenerator rng = new AdvancedNumberGenerator();
+
+            Session["Answer"] = rng.GetNext(1, 10);
 
             return View();
         }

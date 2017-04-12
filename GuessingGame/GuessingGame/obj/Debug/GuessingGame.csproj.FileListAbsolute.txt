@@ -65,3 +65,10 @@
 \\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\obj\Debug\GuessingGame.csprojResolveAssemblyReference.cache
 \\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\obj\Debug\GuessingGame.dll
 \\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\obj\Debug\GuessingGame.pdb
+\\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\bin\Ninject.dll
+\\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\bin\Ninject.Web.Common.dll
+\\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\bin\Ninject.Web.Mvc.dll
+\\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\bin\WebActivatorEx.dll
+\\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\bin\Ninject.xml
+\\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\bin\Ninject.Web.Common.xml
+\\Mac\Home\Desktop\GitHub\dotnet201\guessinggame\GuessingGame\GuessingGame\bin\Ninject.Web.Mvc.xml
