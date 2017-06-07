@@ -172,6 +172,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="ScreenShot\correctguess.PNG" />
+    <Content Include="ScreenShot\homepage.PNG" />
+    <Content Include="ScreenShot\incorrectguess.PNG" />
+    <Content Include="ScreenShot\validationphoto1.PNG" />
+    <Content Include="ScreenShot\validationphoto2.PNG" />
+    <Content Include="ScreenShot\validationphoto3.PNG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
