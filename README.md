@@ -12,7 +12,7 @@ An MVC application built for fun with the user in mind.
 * .NET
 
 ## Home Page:
-[![homepage.PNG](/ScreenShot/homepage.PNG)]
+[![homepage.png](https://s15.postimg.org/m4nhjqr7f/homepage.png)](https://postimg.org/image/oyqmx6tdj/)
 
 ## Validation Errors:
 * [![validationphoto1.PNG](/ScreenShot/validationphoto1.PNG)]
