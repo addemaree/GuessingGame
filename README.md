@@ -20,7 +20,7 @@ An MVC application built for fun with the user in mind.
 * [![validationphoto3.png](https://s17.postimg.org/5gmcnzle7/validationphoto3.png)](https://postimg.org/image/eoel4osgb/)
 
 ## When Guess is Incorrect:
-[![incorrectguess.PNG](/ScreenShot/incorrectguess.PNG)]
+[![incorrectguess.png](https://s11.postimg.org/69ri1n8xf/incorrectguess.png)](https://postimg.org/image/uq9nw49nz/)
 
 ## When Guess is Correct:
 [![correctguess.png](https://s17.postimg.org/v5det9x5b/correctguess.png)](https://postimg.org/image/axzz0yznv/)
