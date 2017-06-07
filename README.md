@@ -16,7 +16,7 @@ An MVC application built for fun with the user in mind.
 
 ## Validation Errors:
 * [![validationphoto1.png](https://s23.postimg.org/uqh0bwgnf/validationphoto1.png)](https://postimg.org/image/45ehgce9z/)
-* [![validationphoto2.PNG](/ScreenShot/validationphoto2.PNG)]
+* [![validationphoto2.png](https://s4.postimg.org/cnoi3k5j1/validationphoto2.png)](https://postimg.org/image/je4zczsop/)
 * [![validationphoto3.PNG](/ScreenShot/validationphoto3.PNG)]
 
 ## When Guess is Incorrect:
