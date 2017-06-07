@@ -12,15 +12,15 @@ An MVC application built for fun with the user in mind.
 * .NET
 
 ## Home Page:
-(/ScreenShot/hompage.PNG)
+[![homepage.PNG](/ScreenShot/homepage.PNG)]
 
 ## Validation Errors:
-* (/ScreenShot/validationphoto1.PNG)
-* (/ScreenShot/validationphoto2.PNG)
-* (/ScreenShot/validationphoto3.PNG)
+* [![validationphoto1.PNG](/ScreenShot/validationphoto1.PNG)]
+* [![validationphoto2.PNG](/ScreenShot/validationphoto2.PNG)]
+* [![validationphoto3.PNG](/ScreenShot/validationphoto3.PNG)]
 
 ## When Guess is Incorrect:
-(/ScreenShot/incorrectguess.PNG)
+[![incorrectguess.PNG](/ScreenShot/incorrectguess.PNG)]
 
 ## When Guess is Correct:
-(/ScreenShot/correctguess.PNG)
+[![correctguess.PNG](/ScreenShot/correctguess.PNG)]
