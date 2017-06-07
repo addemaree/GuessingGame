@@ -15,7 +15,7 @@ An MVC application built for fun with the user in mind.
 [![homepage.png](https://s15.postimg.org/m4nhjqr7f/homepage.png)](https://postimg.org/image/oyqmx6tdj/)
 
 ## Validation Errors:
-* [![validationphoto1.PNG](/ScreenShot/validationphoto1.PNG)]
+* [![validationphoto1.png](https://s23.postimg.org/uqh0bwgnf/validationphoto1.png)](https://postimg.org/image/45ehgce9z/)
 * [![validationphoto2.PNG](/ScreenShot/validationphoto2.PNG)]
 * [![validationphoto3.PNG](/ScreenShot/validationphoto3.PNG)]
 
