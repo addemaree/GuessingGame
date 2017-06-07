@@ -23,4 +23,4 @@ An MVC application built for fun with the user in mind.
 [![incorrectguess.PNG](/ScreenShot/incorrectguess.PNG)]
 
 ## When Guess is Correct:
-[correctguess.png](https://postimg.org/image/axzz0yznv/)
+[![correctguess.png](https://s17.postimg.org/v5det9x5b/correctguess.png)](https://postimg.org/image/axzz0yznv/)
